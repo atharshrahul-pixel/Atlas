@@ -1,0 +1,92 @@
+{
+  "app": {
+    "name": "ATLAS",
+    "tagline": "सुरक्षा प्रथम नेविगेशन"
+  },
+  "splash": {
+    "loading": "लोड हो रहा है...",
+    "selectLanguage": "भाषा चुनें"
+  },
+  "languages": {
+    "en": "English",
+    "ta": "தமிழ்",
+    "hi": "हिंदी"
+  },
+  "navigation": {
+    "home": "होम",
+    "routes": "मार्ग",
+    "safety": "सुरक्षा",
+    "profile": "प्रोफ़ाइल"
+  },
+  "home": {
+    "searchPlaceholder": "गंतव्य खोजें...",
+    "currentLocation": "वर्तमान स्थान",
+    "quickDestinations": "त्वरित गंतव्य",
+    "myHome": "घर",
+    "myWork": "कार्यालय",
+    "favorites": "पसंदीदा"
+  },
+  "route": {
+    "safest": "सबसे सुरक्षित मार्ग",
+    "balanced": "संतुलित मार्ग",
+    "fastest": "सबसे तेज़ मार्ग",
+    "startNavigation": "नेविगेशन शुरू करें",
+    "alternativeRoutes": "वैकल्पिक मार्ग",
+    "safetyScore": "सुरक्षा स्कोर",
+    "estimatedTime": "अनुमानित समय",
+    "distance": "दूरी",
+    "avoid": "बचें",
+    "potholes": "गड्ढे",
+    "schoolZones": "स्कूल क्षेत्र",
+    "markets": "बाज़ार क्षेत्र"
+  },
+  "navigation": {
+    "turnLeft": "बाएं मुड़ें",
+    "turnRight": "दाएं मुड़ें",
+    "goStraight": "सीधे जाएं",
+    "arrived": "आप पहुंच गए हैं",
+    "rerouting": "मार्ग की पुनर्गणना...",
+    "endNavigation": "नेविगेशन समाप्त करें"
+  },
+  "safety": {
+    "warning": "चेतावनी",
+    "potholeAhead": "{distance} मीटर में गड्ढा है",
+    "schoolZone": "स्कूल क्षेत्र - गति कम करें",
+    "heavyTraffic": "भारी यातायात का पता चला",
+    "weatherAlert": "मौसम चेतावनी",
+    "roadQuality": "सड़क की गुणवत्ता",
+    "trafficCondition": "यातायात की स्थिति",
+    "weatherCondition": "मौसम की स्थिति"
+  },
+  "emergency": {
+    "sos": "SOS आपातकाल",
+    "callPolice": "पुलिस को कॉल करें",
+    "callAmbulance": "एम्बुलेंस को कॉल करें",
+    "callFire": "अग्निशमन सेवा को कॉल करें",
+    "shareLocation": "स्थान साझा करें",
+    "emergencyContacts": "आपातकालीन संपर्क"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "language": "भाषा",
+    "voice": "आवाज़ सेटिंग्स",
+    "map": "मानचित्र प्राथमिकताएं",
+    "notifications": "सूचनाएं",
+    "privacy": "गोपनीयता",
+    "about": "के बारे में"
+  },
+  "common": {
+    "ok": "ठीक है",
+    "cancel": "रद्द करें",
+    "save": "सहेजें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "back": "वापस",
+    "next": "अगला",
+    "skip": "छोड़ें",
+    "done": "हो गया",
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफलता"
+  }
+}

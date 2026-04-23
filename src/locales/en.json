@@ -1,0 +1,92 @@
+{
+  "app": {
+    "name": "ATLAS",
+    "tagline": "Safety First Navigation"
+  },
+  "splash": {
+    "loading": "Loading...",
+    "selectLanguage": "Select Language"
+  },
+  "languages": {
+    "en": "English",
+    "ta": "தமிழ்",
+    "hi": "हिंदी"
+  },
+  "navigation": {
+    "home": "Home",
+    "routes": "Routes",
+    "safety": "Safety",
+    "profile": "Profile"
+  },
+  "home": {
+    "searchPlaceholder": "Search destination...",
+    "currentLocation": "Current Location",
+    "quickDestinations": "Quick Destinations",
+    "myHome": "Home",
+    "myWork": "Work",
+    "favorites": "Favorites"
+  },
+  "route": {
+    "safest": "Safest Route",
+    "balanced": "Balanced Route",
+    "fastest": "Fastest Route",
+    "startNavigation": "Start Navigation",
+    "alternativeRoutes": "Alternative Routes",
+    "safetyScore": "Safety Score",
+    "estimatedTime": "Estimated Time",
+    "distance": "Distance",
+    "避oid": "Avoid",
+    "potholes": "Potholes",
+    "schoolZones": "School Zones",
+    "markets": "Market Areas"
+  },
+  "navigation": {
+    "turnLeft": "Turn left",
+    "turnRight": "Turn right",
+    "goStraight": "Go straight",
+    "arrived": "You have arrived",
+    "rerouting": "Recalculating route...",
+    "endNavigation": "End Navigation"
+  },
+  "safety": {
+    "warning": "Warning",
+    "potholeAhead": "Pothole ahead in {distance}m",
+    "schoolZone": "School zone - slow down",
+    "heavyTraffic": "Heavy traffic detected",
+    "weatherAlert": "Weather alert",
+    "roadQuality": "Road Quality",
+    "trafficCondition": "Traffic Condition",
+    "weatherCondition": "Weather Condition"
+  },
+  "emergency": {
+    "sos": "SOS Emergency",
+    "callPolice": "Call Police",
+    "callAmbulance": "Call Ambulance",
+    "callFire": "Call Fire Service",
+    "shareLocation": "Share Location",
+    "emergencyContacts": "Emergency Contacts"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "voice": "Voice Settings",
+    "map": "Map Preferences",
+    "notifications": "Notifications",
+    "privacy": "Privacy",
+    "about": "About"
+  },
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "skip": "Skip",
+    "done": "Done",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  }
+}

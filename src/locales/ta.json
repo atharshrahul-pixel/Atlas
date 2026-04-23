@@ -1,0 +1,92 @@
+{
+  "app": {
+    "name": "ATLAS",
+    "tagline": "பாதுகாப்பு முதல் வழிசெலுத்தல்"
+  },
+  "splash": {
+    "loading": "ஏற்றுகிறது...",
+    "selectLanguage": "மொழியைத் தேர்ந்தெடுக்கவும்"
+  },
+  "languages": {
+    "en": "English",
+    "ta": "தமிழ்",
+    "hi": "हिंदी"
+  },
+  "navigation": {
+    "home": "முகப்பு",
+    "routes": "வழிகள்",
+    "safety": "பாதுகாப்பு",
+    "profile": "சுயவிவரம்"
+  },
+  "home": {
+    "searchPlaceholder": "இலக்கைத் தேடுங்கள்...",
+    "currentLocation": "தற்போதைய இடம்",
+    "quickDestinations": "விரைவு இலக்குகள்",
+    "myHome": "வீடு",
+    "myWork": "வேலை",
+    "favorites": "பிடித்தவை"
+  },
+  "route": {
+    "safest": "பாதுகாப்பான வழி",
+    "balanced": "சமநிலை வழி",
+    "fastest": "வேகமான வழி",
+    "startNavigation": "வழிசெலுத்தலைத் தொடங்கு",
+    "alternativeRoutes": "மாற்று வழிகள்",
+    "safetyScore": "பாதுகாப்பு மதிப்பெண்",
+    "estimatedTime": "மதிப்பிடப்பட்ட நேரம்",
+    "distance": "தூரம்",
+    "avoid": "தவிர்க்க",
+    "potholes": "குழிகள்",
+    "schoolZones": "பள்ளி பகுதிகள்",
+    "markets": "சந்தை பகுதிகள்"
+  },
+  "navigation": {
+    "turnLeft": "இடது பக்கம் திரும்பவும்",
+    "turnRight": "வலது பக்கம் திரும்பவும்",
+    "goStraight": "நேராக செல்லவும்",
+    "arrived": "நீங்கள் வந்துவிட்டீர்கள்",
+    "rerouting": "வழியை மீண்டும் கணக்கிடுகிறது...",
+    "endNavigation": "வழிசெலுத்தலை முடிக்க"
+  },
+  "safety": {
+    "warning": "எச்சரிக்கை",
+    "potholeAhead": "{distance} மீட்டரில் குழி உள்ளது",
+    "schoolZone": "பள்ளி பகுதி - வேகத்தை குறைக்கவும்",
+    "heavyTraffic": "அதிக போக்குவரத்து கண்டறியப்பட்டது",
+    "weatherAlert": "வானிலை எச்சரிக்கை",
+    "roadQuality": "சாலை தரம்",
+    "trafficCondition": "போக்குவரத்து நிலை",
+    "weatherCondition": "வானிலை நிலை"
+  },
+  "emergency": {
+    "sos": "SOS அவசரநிலை",
+    "callPolice": "காவல்துறையை அழைக்கவும்",
+    "callAmbulance": "ஆம்புலன்ஸை அழைக்கவும்",
+    "callFire": "தீயணைப்பு சேவையை அழைக்கவும்",
+    "shareLocation": "இருப்பிடத்தைப் பகிரவும்",
+    "emergencyContacts": "அவசர தொடர்புகள்"
+  },
+  "settings": {
+    "title": "அமைப்புகள்",
+    "language": "மொழி",
+    "voice": "குரல் அமைப்புகள்",
+    "map": "வரைபட விருப்பத்தேர்வுகள்",
+    "notifications": "அறிவிப்புகள்",
+    "privacy": "தனியுரிமை",
+    "about": "பற்றி"
+  },
+  "common": {
+    "ok": "சரி",
+    "cancel": "ரத்துசெய்",
+    "save": "சேமி",
+    "delete": "நீக்கு",
+    "edit": "திருத்து",
+    "back": "பின்செல்",
+    "next": "அடுத்து",
+    "skip": "தவிர்",
+    "done": "முடிந்தது",
+    "loading": "ஏற்றுகிறது...",
+    "error": "பிழை",
+    "success": "வெற்றி"
+  }
+}
