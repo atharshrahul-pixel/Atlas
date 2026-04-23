@@ -1,73 +1,74 @@
-# React + TypeScript + Vite
+🗺️ Atlas AI – Risk-Aware Smart Road Navigation System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Atlas AI is an intelligent navigation system designed to prioritize safety over shortest distance by analyzing real-time environmental and road conditions. It integrates traffic, weather, and road risk factors to generate safer route recommendations, making navigation more reliable for real-world driving scenarios.
 
-Currently, two official plugins are available:
+⚠️ Disclaimer: Atlas AI is developed for educational and research purposes only and should not be used as a replacement for official navigation systems.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎯 Features
 
-## React Compiler
+🚦 Risk-Aware Routing – Suggests routes based on safety score instead of just shortest path
+🌦️ Weather-Based Risk Analysis – Considers rain, fog, and extreme conditions
+🚗 Traffic Intelligence – Evaluates congestion and accident-prone areas
+🧠 Safety Scoring Model – Assigns dynamic risk scores to routes
+⚡ Real-Time Processing – Generates route recommendations instantly
+💻 Interactive Web Interface – Simple UI for input and route visualization
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+Artificial Intelligence (AI) – Decision-based safety scoring
+Backend (Flask) – API handling and route processing
+APIs (Maps & Weather) – Real-time traffic and weather data
+Python – Core logic and backend processing
+SQL / Database – Storing route and risk data
+HTML/CSS – Frontend interface
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+⚙️ How It Works
+User enters source and destination
+System fetches multiple route options via Map APIs
+Each route is analyzed using:
+Traffic density
+Weather conditions
+Road risk factors
+A safety score is calculated for each route
+The safest route is prioritized over the shortest one
+Final recommendation is displayed to the user
+🚀 Installation & Setup
+# Clone the repository
+git clone https://github.com/your-username/atlas-ai.git
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# Navigate to project folder
+cd atlas-ai
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# Install dependencies
+pip install -r requirements.txt
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# Run the application
+python app.py
+🧰 Requirements
+Python 3.10+
+Flask
+Requests
+Map API (Google Maps / OpenStreetMap)
+Weather API (OpenWeather, etc.)
+SQL (optional for storage)
+📸 Usage
+Enter start and destination locations
+View multiple route options
+Compare safety scores
+Select the safest route
+Monitor how weather/traffic impacts decisions
+📊 Use Cases
+Smart navigation systems
+Road safety applications
+Logistics & delivery optimization
+Emergency route planning
+Smart city solutions
+🔮 Future Improvements
+Real-time accident detection integration
+AI-based predictive traffic analysis
+Mobile app version
+Voice-enabled navigation
+Integration with IoT (smart vehicles)
+🏁 Conclusion
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Atlas AI redefines traditional navigation by shifting focus from speed to safety-first routing. By combining real-time data with intelligent scoring, it demonstrates how AI can improve everyday transportation and reduce road risks.
